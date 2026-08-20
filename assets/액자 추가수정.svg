@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 841.89 595.28">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #040000;
+        font-family: HakgyoansimBareondotumR, 'Hakgyoansim Bareondotum';
+        font-size: 64.3px;
+      }
+
+      .cls-2 {
+        fill: #fff;
+        stroke: #412517;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <!-- Generator: Adobe Illustrator 28.7.1, SVG Export Plug-In . SVG Version: 1.2.0 Build 142)  -->
+  <g>
+    <g id="_레이어_1" data-name="레이어_1">
+      <text class="cls-1" transform="translate(181.73 211.49)"><tspan x="0" y="0">7호</tspan></text>
+      <text class="cls-1" transform="translate(518.24 101.3)"><tspan x="0" y="0">위패</tspan></text>
+      <rect class="cls-2" x="486.04" y="134.82" width="184.25" height="411.02" rx="22.97" ry="22.97"/>
+      <rect class="cls-2" x="381.16" y="256.71" width="394.02" height="167.24" rx="17.01" ry="17.01" transform="translate(918.5 -237.84) rotate(90)"/>
+      <g>
+        <rect class="cls-2" x="89.39" y="244.94" width="297.64" height="297.64" rx="48.19" ry="48.19"/>
+        <path class="cls-2" d="M137.58,252.02h201.26c22.69,0,41.1,18.42,41.1,41.1v201.26c0,22.69-18.42,41.1-41.1,41.1h-201.26c-22.68,0-41.1-18.42-41.1-41.1v-201.26c0-22.69,18.42-41.1,41.1-41.1Z" transform="translate(631.96 155.55) rotate(90)"/>
+      </g>
+    </g>
+  </g>
+</svg>

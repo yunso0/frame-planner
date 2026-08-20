@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<title>납골당 액자 배치 시뮬레이터</title>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="app-header">
+    <div class="app-header-inner">
+      <h1>납골당 액자 배치 시뮬레이터</h1>
+      <div class="app-header-actions"></div>
+    </div>
+  </header>
+
+  <div class="app-container">
+  <div class="app-layout">
+
+    <!-- 왼쪽: 봉안당 크기 입력 + 액자 목록 -->
+    <aside class="panel panel-left">
+      <section class="panel-section">
+        <h2>봉안당 크기 설정</h2>
+        <ul id="niche-preset-list" class="niche-preset-list"></ul>
+        <div id="custom-size-inputs" class="custom-size-inputs" style="display: none;">
+          <label>
+            가로 (cm)
+            <input type="number" id="input-width" min="1" />
+          </label>
+          <label>
+            세로 (cm)
+            <input type="number" id="input-height" min="1" />
+          </label>
+        </div>
+        <button id="btn-apply-size">봉안당 크기 적용</button>
+      </section>
+
+      <section class="panel-section">
+        <h2>액자 목록</h2>
+        <p class="hint">액자를 클릭하면 배치 화면에 추가됩니다.</p>
+        <ul id="frame-list" class="frame-list"></ul>
+      </section>
+    </aside>
+
+    <!-- 가운데: 배치 화면 -->
+    <main class="panel panel-center">
+      <h2>배치 화면</h2>
+      <div id="stage-wrapper" class="stage-wrapper">
+        <div id="stage-frame" class="stage-frame">
+          <div id="stage" class="stage">
+            <!-- 여기에 봉안당 영역과 액자들이 표시됩니다 -->
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- 오른쪽: 사용 현황 + 저장 -->
+    <aside class="panel panel-right">
+      <section class="panel-section">
+        <h2>사용한 액자 현황</h2>
+        <p class="hint" id="usage-hint">아직 배치된 액자가 없습니다.</p>
+        <ul id="usage-list" class="usage-list"></ul>
+        <button id="btn-clear-all" class="btn-danger" style="display: none;">모두 삭제</button>
+      </section>
+
+      <section class="panel-section">
+        <button id="btn-save-png">PNG로 저장</button>
+      </section>
+    </aside>
+
+  </div>
+  </div>
+
+  <script src="data/frames.js"></script>
+  <script src="data/niches.js"></script>
+  <script src="data/frameShapes.js"></script>
+  <script src="data/urnShape.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
